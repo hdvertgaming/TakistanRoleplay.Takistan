@@ -221,12 +221,99 @@ class WeaponShops {
     };
     //Cop Shops
     class cop_basic {
-        name = "Nato Shop";
+        name = "United Nations Cadet Shop";
         side = "cop";
         license = "";
         level = -1;
-        msg = "";
+        msg = "You must be a Cadet Rank!";
         items[] = {
+		{ "DDOPP_X26", "nil", 2000 },
+		{ "DDOPP_1Rnd_X26", "nil", 50 },
+	    { "tf_anprc152", "", 50 },
+		{ "hgun_P07_F", "", 7500 },
+		{ "HandGrenade_Stone", "Flashbang", 300 },
+		{ "Binocular", "", 150 },
+		{ "Rangefinder", "", 150 },
+		{ "ItemGPS", "", 100 },
+		{ "ToolKit", "", 250 },
+		{ "muzzle_snds_L", "", 650 },
+		{ "FirstAidKit", "", 150 },
+		{ "Medikit", "", 1000 },
+		{ "NVGoggles", "", 2000 },
+		{ "TRYK_Headset_NV", "", 2000 },
+		{ "TRYK_Shemagh_shade_N", "", 2000 },
+		{ "16Rnd_9x21_Mag", "", 50 },
+		{ "tf_anprc152", "", 50 },
+            	{ "tf_rt1523g", "", 50 },
+		{ "20Rnd_556x45_UW_mag", "Taser Rifle Magazine", 125 },
+            	{ "rhs_weap_m16a4_carryhandle", "", 500 },
+            	{ "Trixie_M24_Ghillie", "", 500 },
+            	{ "rhs_weap_m249_pip", "", 500 },
+            	{ "rhs_weap_m16a4_carryhandle_M203", "", 500 },
+            	{ "rhs_weap_m4a1_carryhandle_grip", "", 500 },
+            	{ "rhs_weap_m4a1_carryhandle_m203", "", 500 },
+            	{ "CUP_arifle_Mk17_STD", "", 500 },
+		{ "CUP_arifle_Mk17_STD_EGLM", "", 500 },
+		{ "srifle_DMR_02_sniper_F", "", 500 },
+            	{ "srifle_DMR_03_F", "", 500 },
+		{ "CUP_srifle_AWM_des_SBPMII", "", 500 },
+		{ "Trixie_M107", "", 500 },
+		{ "arifle_Katiba_F", "", 500 },
+            	{ "CUP_launch_M136", "", 500 },
+            	{ "CUP_M136_M", "", 250 },
+		{ "bipod_01_F_snd", "", 500 },
+            	{ "rhsusf_acc_EOTECH", "", 500 },
+		{ "rhsusf_acc_ACOG", "", 500 },
+		{ "rhsusf_acc_compm4", "", 500 },
+		{ "rhsusf_acc_anpeq15A", "", 500 },
+		{ "rhsusf_acc_harris_bipod", "", 500 },
+		{ "Trixie_LSMARK4_Net", "", 500 },
+		{ "CUP_acc_ANPEQ_2_desert", "", 500 },
+		{ "Trixie_Cyclone_Net", "", 500 },
+		{ "optic_LRPS", "", 500 },
+            	{ "optic_MRCO", "", 500 },
+            	{ "optic_DMS", "", 500 },
+            	{ "optic_Aco", "", 500 },
+            	{ "20Rnd_762x51_Mag", "", 50 },
+            	{ "optic_ACO_grn", "", 500 },
+            	{ "optic_ARCO", "", 500 },
+            	{ "acc_flashlight", "", 500 },
+            	{ "Trixie_ANPVS10_Green_Net", "", 500 },
+		{ "muzzle_snds_M", "", 500 },
+		{ "Trixie_10x127_Mag", "", 50 },
+		{ "CUP_5Rnd_86x70_L115A1", "", 50 },
+            	{ "CUP_20Rnd_762x51_B_SCAR", "", 50 },
+		{ "rhs_mag_30Rnd_556x45_Mk318_Stanag", "", 50 },
+            	{ "rhsusf_100Rnd_556x45_soft_pouch", "", 50 },
+            	{ "Trixie_5x762_Mag", "", 50 },
+		{ "10Rnd_338_Mag", "", 50 },
+        	{ "20Rnd_762x51_Mag", "", 50 },
+		{ "30Rnd_65x39_caseless_green", "", 50 },
+            	{ "1Rnd_HE_Grenade_shell", "", 50 },
+            	{ "UGL_FlareGreen_F", "", 50 },
+				{ "rhs_weap_ak74m", "", 500 },
+				{ "rhs_30Rnd_545x39_AK", "", 100 },
+            	{ "B_UavTerminal", "", 250 }
+        };
+    };
+    class cop_patrol {
+        name = "United Nations Second Lieutenant Shop";
+        side = "cop";
+        license = "";
+        level = 2;
+        msg = "You must be a Second Lieutenant Rank!";
+        items[] = {
+                { "arifle_MX_F", "", 35000 },
+		{ "SMG_02_ACO_F", "", 30000 },
+		{ "tf_anprc152", "", 50 },
+		{ "HandGrenade_Stone", "Flashbang", 1700 },
+		{ "MineDetector", "", 1000 },
+		{ "acc_flashlight", "", 750 },
+		{ "optic_Holosight", "", 1200 },
+		{ "optic_Arco", "", 2500 },
+		{ "muzzle_snds_H", "", 2750 },
+		{ "30Rnd_65x39_caseless_mag", "", 130 },
+		{ "30Rnd_9x21_Mag", "", 250 },
 		{ "DDOPP_X26", "nil", 2000 },
 		{ "DDOPP_1Rnd_X26", "nil", 50 },
 		{ "hgun_P07_F", "", 7500 },
@@ -290,34 +377,17 @@ class WeaponShops {
 		{ "30Rnd_65x39_caseless_green", "", 50 },
             	{ "1Rnd_HE_Grenade_shell", "", 50 },
             	{ "UGL_FlareGreen_F", "", 50 },
+				{ "rhs_weap_ak74m", "", 500 },
+				{ "rhs_30Rnd_545x39_AK", "", 100 },
             	{ "B_UavTerminal", "", 250 }
         };
     };
-    class cop_patrol {
-        name = "Nato Officer Shop";
-        side = "cop";
-        license = "";
-        level = 2;
-        msg = "You must be a Officer Rank!";
-        items[] = {
-                { "arifle_MX_F", "", 35000 },
-		{ "SMG_02_ACO_F", "", 30000 },
-		{ "HandGrenade_Stone", "Flashbang", 1700 },
-		{ "MineDetector", "", 1000 },
-		{ "acc_flashlight", "", 750 },
-		{ "optic_Holosight", "", 1200 },
-		{ "optic_Arco", "", 2500 },
-		{ "muzzle_snds_H", "", 2750 },
-		{ "30Rnd_65x39_caseless_mag", "", 130 },
-		{ "30Rnd_9x21_Mag", "", 250 }
-        };
-    };
     class cop_sergeant {
-        name = "Nato Sergeant Shop";
+        name = "United Nations Lieutenant Shop";
         side = "cop";
         license = "";
         level = 3;
-        msg = "You must be a Sergeant Rank!";
+        msg = "You must be a Lieutenant Rank!";
         items[] = {
             	{ "tf_anprc152", "", 50 },
             	{ "tf_rt1523g", "", 50 },
@@ -335,7 +405,73 @@ class WeaponShops {
             	{ "optic_Aco", "", 500 },
             	{ "optic_ACO_grn", "", 500 },
             	{ "optic_ARCO", "", 500 },
-            	{ "acc_flashlight", "", 500 }
+            	{ "acc_flashlight", "", 500 },
+				{ "DDOPP_X26", "nil", 2000 },
+		{ "DDOPP_1Rnd_X26", "nil", 50 },
+		{ "hgun_P07_F", "", 7500 },
+		{ "HandGrenade_Stone", "Flashbang", 300 },
+		{ "Binocular", "", 150 },
+		{ "Rangefinder", "", 150 },
+		{ "ItemGPS", "", 100 },
+		{ "ToolKit", "", 250 },
+		{ "muzzle_snds_L", "", 650 },
+		{ "FirstAidKit", "", 150 },
+		{ "Medikit", "", 1000 },
+		{ "NVGoggles", "", 2000 },
+		{ "TRYK_Headset_NV", "", 2000 },
+		{ "TRYK_Shemagh_shade_N", "", 2000 },
+		{ "16Rnd_9x21_Mag", "", 50 },
+		{ "tf_anprc152", "", 50 },
+            	{ "tf_rt1523g", "", 50 },
+		{ "20Rnd_556x45_UW_mag", "Taser Rifle Magazine", 125 },
+            	{ "rhs_weap_m16a4_carryhandle", "", 500 },
+            	{ "Trixie_M24_Ghillie", "", 500 },
+            	{ "rhs_weap_m249_pip", "", 500 },
+            	{ "rhs_weap_m16a4_carryhandle_M203", "", 500 },
+            	{ "rhs_weap_m4a1_carryhandle_grip", "", 500 },
+            	{ "rhs_weap_m4a1_carryhandle_m203", "", 500 },
+            	{ "CUP_arifle_Mk17_STD", "", 500 },
+		{ "CUP_arifle_Mk17_STD_EGLM", "", 500 },
+		{ "srifle_DMR_02_sniper_F", "", 500 },
+            	{ "srifle_DMR_03_F", "", 500 },
+		{ "CUP_srifle_AWM_des_SBPMII", "", 500 },
+		{ "Trixie_M107", "", 500 },
+		{ "arifle_Katiba_F", "", 500 },
+            	{ "CUP_launch_M136", "", 500 },
+            	{ "CUP_M136_M", "", 250 },
+		{ "bipod_01_F_snd", "", 500 },
+            	{ "rhsusf_acc_EOTECH", "", 500 },
+		{ "rhsusf_acc_ACOG", "", 500 },
+		{ "rhsusf_acc_compm4", "", 500 },
+		{ "rhsusf_acc_anpeq15A", "", 500 },
+		{ "rhsusf_acc_harris_bipod", "", 500 },
+		{ "Trixie_LSMARK4_Net", "", 500 },
+		{ "CUP_acc_ANPEQ_2_desert", "", 500 },
+		{ "Trixie_Cyclone_Net", "", 500 },
+		{ "optic_LRPS", "", 500 },
+            	{ "optic_MRCO", "", 500 },
+            	{ "optic_DMS", "", 500 },
+            	{ "optic_Aco", "", 500 },
+            	{ "20Rnd_762x51_Mag", "", 50 },
+            	{ "optic_ACO_grn", "", 500 },
+            	{ "optic_ARCO", "", 500 },
+            	{ "acc_flashlight", "", 500 },
+            	{ "Trixie_ANPVS10_Green_Net", "", 500 },
+		{ "muzzle_snds_M", "", 500 },
+		{ "Trixie_10x127_Mag", "", 50 },
+		{ "CUP_5Rnd_86x70_L115A1", "", 50 },
+            	{ "CUP_20Rnd_762x51_B_SCAR", "", 50 },
+		{ "rhs_mag_30Rnd_556x45_Mk318_Stanag", "", 50 },
+            	{ "rhsusf_100Rnd_556x45_soft_pouch", "", 50 },
+            	{ "Trixie_5x762_Mag", "", 50 },
+		{ "10Rnd_338_Mag", "", 50 },
+        	{ "20Rnd_762x51_Mag", "", 50 },
+		{ "30Rnd_65x39_caseless_green", "", 50 },
+            	{ "1Rnd_HE_Grenade_shell", "", 50 },
+				{ "rhs_weap_ak74m", "", 500 },
+				{ "rhs_30Rnd_545x39_AK", "", 100 },
+            	{ "UGL_FlareGreen_F", "", 50 },
+            	{ "B_UavTerminal", "", 250 }
         };
     };
     //Taki army
